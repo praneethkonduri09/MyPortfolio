@@ -45,8 +45,8 @@ public class Main {
                     int id = sc.nextInt();
                     registry.deleteUser(id);
                 }
-                case 5 -> System.out.println("👋 Exiting...");
-                default -> System.out.println("❌ Invalid choice!");
+                case 5 -> System.out.println(" Exiting...");
+                default -> System.out.println(" Invalid choice!");
             }
         } while (choice != 5);
 
